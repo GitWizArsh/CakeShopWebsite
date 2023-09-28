@@ -1,0 +1,113 @@
+@font-face
+{
+	src:url(font/SEASRN__.ttf);
+	font-family:Admiration;
+}
+
+*{
+				margin:0;
+				padding:0;
+				font-family:arial;
+			}
+			body{
+				width:90%;
+				background:#eaeaea;
+				margin:auto;
+			}
+			header::after{
+				content:'';
+				display:table;
+				clear:both;
+			}
+			
+			header{
+			background:#a80a44;
+		}
+			#logo{
+				width:15%;
+				float:left;
+				
+			}
+			#logo figure{
+				padding-left:20px;
+				padding-right:20px;
+			}
+			#logo figure figcaption{
+				background:#ffffff;
+				text-align:center;
+			}
+			#co_shop{
+				width:55%;
+				float:left;
+				
+			}
+			#co_shop h1{
+				font-family:Admiration;
+				font-size:3.5em;
+				text-align:center;
+				color:#efefef
+			}
+			#info{
+				width:25%;
+				float:right;
+				text-align:center;
+				margin:55px 0 55px 0;
+				color:#efefef;
+				font-weight:bold;
+			}
+			nav::after{
+				content:'';
+				display:table;
+				clear:both;
+			}
+			nav{
+				background:black;
+			}
+			nav ul li{
+				float:left;
+				list-style:none;
+			}
+			nav ul li a{
+				background:black;
+				display:block;
+				width:200px;
+				height:50px;
+				color:#ffffff;
+				text-align:center;
+				line-height:50px;
+				text-decoration:none;
+				text-transform:uppercase;
+				border-right:1px dotted #ffffff;
+			}
+	/* psedo class*/
+
+			nav ul li a:hover{
+				background:maroon;
+				opacity:0.9;
+				font-size:18pt;
+				}
+				
+			section::after{
+				content:'';
+				display:table;
+				clear:both;
+			}
+			section{
+				background:#fefefe;
+				
+			}
+			section h1{
+				font-size:2em;
+				color:#a80a44;
+				margin-bottom:10px;
+			}
+			
+			footer{
+				background: #a80a44;
+				color:#ffffff;
+				height:50px;
+				line-height:50px;
+			}
+			footer p{
+				text-align:center;
+			}
